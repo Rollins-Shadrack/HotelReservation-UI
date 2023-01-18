@@ -1,0 +1,36 @@
+.logo1{
+    font-size: 27px;
+    color: gold;
+    font-weight: 600;
+}
+.logo2{
+    font-size: 15px;
+    color: rgb(114, 44, 189);
+    font-weight: 500;
+}
+.navbar{
+    height: 50px;
+    background-color: rgb(114, 44, 189);
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: rgb(114, 44, 189);
+    border-radius: 9px;
+}
+.navButton:hover{
+    background-color:rgb(114, 44, 189) ;
+    cursor: pointer;
+    color:white ;
+}
